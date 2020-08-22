@@ -9,7 +9,7 @@ The purpose of this section is to describe how to setup the base install and con
 3. Switch to the root user ( either by sudo or su )
 
 5. Run the Script that handles all comnands before the user does a chroot
-   * wget https://raw.githubusercontent.com/CharlesStockman/install_funtoo/master/baseInstall/preChroot.sh
+   * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/preChroot.sh
    * sh ./preChroot.sh
 
    * Assumptions The disk is partitioned into three parts
@@ -24,7 +24,7 @@ The purpose of this section is to describe how to setup the base install and con
      * Extract the Stage 3 Tarball to /mnt/funtoo 
    
 6. Run the script that handles the chroot
-    * wget https://raw.githubusercontent.com/CharlesStockman/install_funtoo/master/Chapter-9-Chroot-Into-Funtoo.sh
+    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/Chapter-9-Chroot-Into-Funtoo.sh
     * sh ./Chapter-9-Chroot-Into-Funtoo.sh
 
     * The script will do the following
@@ -35,10 +35,10 @@ The purpose of this section is to describe how to setup the base install and con
 7. Run the script that handles 
     * ( mkdir $HOME/scripts ; cd $HOME/scripts )
     
-    * wget https://raw.githubusercontent.com/CharlesStockman/install_funtoo/master/reusable.sh
+    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/reusable.sh
       * In the top level directory execute "source reusable.sh" to load the reusable functions that will be used by more than one script. 
     
-    * wget https://raw.githubusercontent.com/CharlesStockman/install_funtoo/master/postChroot.sh
+    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/postChroot.sh
       * sh ./postChroot.sh
     
     * The scripts will perform the following
