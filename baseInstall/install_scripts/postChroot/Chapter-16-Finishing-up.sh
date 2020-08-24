@@ -18,4 +18,4 @@ echo "root:unixmac10" | chpasswd
 #
 useradd -m cstockman
 usermod -G wheel,audio,plugdev,portage cstockman
-echo "root:unixmac10" | chpasswd
+echo "cstockman:unixmac10" | chpasswd
