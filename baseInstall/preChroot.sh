@@ -1,7 +1,7 @@
 #/bin/sh
 
 user="CharlesStockman"
-project="install_funtoo"
+project="scripts_for_installing_funtoo"
 branch="master"
 section="baseInstall"
 
