@@ -24,6 +24,8 @@ wget https://$site/$path/$postCommitDir/Chapter-14-Bootloader.sh
 wget https://$site/$path/$postCommitDir/Chapter-15-Networkmanager.sh
 wget https://$site/$path/$postCommitDir/Chapter-16-Finishing-up.sh
 wget https://$site/$path/$postCommitDir/Chapter-16-Configuring-Random.sh
+wget https://$site/$path/$postCommitDir/Chapter-17-Profiles.sh
+
 
 wget https://$site/$path/$postCommitDir/data/fstab
 
@@ -36,3 +38,4 @@ sh ./Chapter-14-Bootloader.sh			; echoEndString
 sh ./Chapter-15-Networkmanager.sh		; echoEndString
 sh ./Chapter-16-Finishing-up.sh			; echoEndString
 sh ./Chapter-16-Configuring-Random.sh		; echoEndString
+sh ./Chapter-17-Profiles.sh                     ; echoEndString
