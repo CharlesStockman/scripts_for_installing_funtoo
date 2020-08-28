@@ -35,7 +35,7 @@ The purpose of this section is to describe how to setup the base install and con
 7. Run the script that handles 
     * ( mkdir $HOME/scripts ; cd $HOME/scripts )
     
-    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/reusable.sh
+    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/reuseable.sh
       * In the top level directory execute "source reusable.sh" to load the reusable functions that will be used by more than one script. 
     
     * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/postChroot.sh
