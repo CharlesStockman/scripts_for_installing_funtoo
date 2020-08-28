@@ -5,8 +5,8 @@
 #
 # modeset is used to tell Kernel Mode Set to not load this driver at 
 #
-$filename="/etc/modeprobe.d/nouveau-blacklist.conf
-"
+$filename="/etc/modprobe.d/nouveau-blacklist.conf"
+
 echo "blacklist nouveau" 	 	>> $filename
 echo "options nouveau modeset=0" 	>> $filename
 echo "alias nouveau off" 		>> $filename
@@ -30,13 +30,12 @@ emerge x11-drivers/nvidia-drivers x11-drivers/nvidia-kernel-modules
 # Nvidia needs to be part of the user group for hardware accelleration
 #
 usermod -a -G video root
-usermod -a -G video cstockman
 
 
 #
 # In make conf set the Video Cards variable
 #
-sed -i '/VIDEO_CARDS=/VIDEO_CARDS=\"nvidia\"' /etc/conf.d/hostname#
+echo "VIDEO_CARDS=\"nvidia\"" >>  /etc/portage/make.conf
 
 #
 # Test the card

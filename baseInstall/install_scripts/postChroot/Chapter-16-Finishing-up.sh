@@ -15,7 +15,8 @@ echo "root:unixmac10" | chpasswd
 #	plugdev Allows your account to work with removable drivers
 #		Allows adding of a WIFI network in Gnome
 #	portage	Allows extended use of portage as a regular user
+#       video	Allows hardware accelleration
 #
 useradd -m cstockman
-usermod -G wheel,audio,plugdev,portage cstockman
+usermod -G wheel,audio,plugdev,portage,video cstockman
 echo "cstockman:unixmac10" | chpasswd
