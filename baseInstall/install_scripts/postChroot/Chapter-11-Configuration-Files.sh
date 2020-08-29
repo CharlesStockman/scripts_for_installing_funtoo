@@ -10,8 +10,6 @@ cp fstab /etc/fstab
 ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 
 #
-# TODO: For now the make.conf is going here until a script is created for it 
-#
 # CFLAGS and CXXFLAGS -- CFLAGS is meant for C programs and CXXFLAGS is meant for C++ programs
 # LINGUAS --  used by some gettext-based build systems to control which localization files are built and installed.
 #
@@ -19,8 +17,8 @@ ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 # examples and doc was choosen to more information about the commands
 # 
 # 
-$useFlags="wifi -vala doc examples"
-$compilerOptions="-march=skylake -O2 -pipe"
+useFlags="wifi -vala doc examples"
+compilerOptions="-march=skylake -O2 -pipe"
 
 echo "CFLAGS=\"$copmpilerOptions\"" 		>> /etc/portage/make.conf
 echo "CXXFLAGS=\"$copmpilerOptions\""		>> /etc/portage/make.conf
