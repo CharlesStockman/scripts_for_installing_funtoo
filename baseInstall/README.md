@@ -2,7 +2,7 @@
 
 The purpose of this section is to describe how to setup the base install and configure including setting up the kernel, grub and the network for the new system.
 
-1. Boot up a Live version.  Current I am using the live version of POP OS.
+1. Boot up a Live version.  Currently I am using the live version of POP OS.
 
 2. Bring up a command line and connect to the internet
 
