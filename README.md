@@ -8,7 +8,7 @@ The script are bhttps://github.com/CharlesStockman/installing_funtooe created fo
 * For the creation of virtual mahcine
   * When I started in Linux, I always tried different window managers, a virtual machine would be an easier way study window managers again without using a primary harddrive and https://github.com/CharlesStockman/scripts_for_installing_funtoo would provide an easy way to setup an environment.  The combination allows the avoidance of putting extra libraries on the system that I would never use or may not want after testing.  
   * To simulate a distributed environment where I have more than one machine.  An example use case could be microservice projects.
-  * Speculation, When doing a source based upgrade could you create a virtual machine which could the compile the code then installt the code on the current physical hardware
+  * Speculation, When doing a source based upgrade a virtual machine could be created to compile the code then install the code on the current physical hardware.  The advantage would you have full access to your host machine.
   
 ## How to Install
 
