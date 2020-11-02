@@ -19,7 +19,7 @@ The purpose of this section is to describe how to setup the base install and con
 
    * The script will perform the following
      * Create the filesystem for each partition
-     * Mount each partition.  For example mount the third partition as /mnt/funtoo
+     * Mount the partititions where the base software will be installed to.
      * Copy the time to the hardware clock so it persists when the system reboots
      * Extract the Stage 3 Tarball to /mnt/funtoo 
    
