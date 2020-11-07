@@ -15,7 +15,7 @@ The purpose of this section is to describe how to setup the base install and con
    * Assumptions The disk is partitioned into three parts
      * The first partition is the UEFI Boot
      * The second partition is the swap space 
-     * The thirrd partition will contain the distribution
+     * The third partition will contain the distribution
 
    * The script will perform the following
      * Create the filesystem for each partition
