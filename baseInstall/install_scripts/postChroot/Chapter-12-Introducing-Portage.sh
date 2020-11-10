@@ -18,9 +18,3 @@ ego sync
 # -with-bdeps Compiles build dependecies
 #
 emerge -uDN --with-bdeps=y @world
-
-#
-# Create a make conf.
-#
-echo "USE=\" wifi -vala\" >> /etc/portage/make.conf
-echo "MAKEOPTS=\"-j8\"" >> /etc/portage/make.conf

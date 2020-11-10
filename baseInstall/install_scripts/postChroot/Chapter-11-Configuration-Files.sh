@@ -20,8 +20,8 @@ ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 useFlags="wifi -vala doc examples"
 compilerOptions="-march=skylake -O2 -pipe"
 
-echo "CFLAGS=\"$copmpilerOptions\"" 		>> /etc/portage/make.conf
-echo "CXXFLAGS=\"$copmpilerOptions\""		>> /etc/portage/make.conf
+echo "CFLAGS=\"$compilerOptions\"" 		>> /etc/portage/make.conf
+echo "CXXFLAGS=\"$compilerOptions\""		>> /etc/portage/make.conf
 echo "USE=\"$useFlags\""			>> /etc/portage/make.conf
 echo "MAKEOPTS=\"-j8\"" 			>> /etc/portage/make.conf
 echo "LINGUAS=\"en_us\""			>> /etc/portage.make.conf
