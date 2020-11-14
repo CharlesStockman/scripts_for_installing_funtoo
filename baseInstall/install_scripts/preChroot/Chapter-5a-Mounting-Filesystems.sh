@@ -3,6 +3,8 @@
 # mounts the needed filesystems
 # Requires Chapter-5-Creating-File-Systems.sh
 
+[ -d /mnt ] || mkdir /mnt
+
 mkdir /mnt/funtoo
 mount /dev/nvme0n1p3 /mnt/funtoo
 
