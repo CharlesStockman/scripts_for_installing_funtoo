@@ -8,7 +8,7 @@ The purpose of this section is to describe how to setup the base install and con
 
 3. Switch to the root user ( either by sudo or su )
 
-4. In the command line using the date command verify and change if the date is not correct
+4. In the terminal using the date command verify and change if the date is not correct
 
 5. Run the Script that handles all comnands before the user does a chroot
    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/preChroot.sh
