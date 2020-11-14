@@ -17,4 +17,4 @@ ego sync
 #
 # -with-bdeps Compiles build dependecies
 #
-emerge -uDN --with-bdeps=y @world
+emerge -auDN --with-bdeps=y @world
