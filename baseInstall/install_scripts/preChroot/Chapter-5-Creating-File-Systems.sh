@@ -8,6 +8,12 @@
 # -F -- Force
 
 mkfs.vfat -F 32 /dev/nvme0n1p1
+fatlabel /dev/nvme0n1p1 "BOOT"
+
 mkswap /dev/nvme0n1p2
 swapon /dev/nvme0n1p2
-mkfs.ext4 -F /dev/nvme0n1p3 
+swaplabel /dev/nvme0n1p2 "SWAP"
+
+swaplabel /dev/sda2
+mkfs.ext4 -F /dev/nvme0n1p3
+e2label /dev/nvme0n1p3 "FUNTOO"
