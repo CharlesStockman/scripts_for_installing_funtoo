@@ -17,7 +17,7 @@ ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 # examples and doc was choosen to more information about the commands
 # 
 # 
-useFlags="wifi -vala doc examples"
+useFlags="wifi -vala"
 compilerOptions="-march=skylake -O2 -pipe"
 
 echo "CFLAGS=\"$compilerOptions\"" 		>> /etc/portage/make.conf
