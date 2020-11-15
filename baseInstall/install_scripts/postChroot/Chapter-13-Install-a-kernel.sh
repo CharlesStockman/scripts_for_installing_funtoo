@@ -14,6 +14,6 @@ emerge -v linux-firmware
 #
 # Command line options for emerge ( -a is ask and -v is verbose )
 echo "sys-kernel/debian-sources binary" >  /etc/portage/package.use
-emerge -av debian-sources
+emerge -v debian-sources
 
 
