@@ -8,7 +8,7 @@ hostname="temporaryBase"
 # Need to set a hostname -- Some ebuilds refuse to install when detecting
 # localhost as hostname.
 #
-sed -i "/hostname/chostname=\"hostname\"" /etc/conf.d/hostname
+sed -i "/hostname/chostname=\"$hostname\"" /etc/conf.d/hostname
 
 #
 # linux-firmware -- neeed for WIFI cards
