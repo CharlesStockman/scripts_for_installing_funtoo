@@ -10,11 +10,10 @@ ego sync
 # To avoid problems before first boot run the following code
 #
 
-# -a 	Shows what will be emerged and ask if you to succeed
 # -u	update the package we specify and if the package is already emerged don't emerge again
 # -D	Deep Update ( Update packages and dependencies )
 # -N	update packgages that have changed (new) USE setting
 #
 # -with-bdeps Compiles build dependecies
 #
-emerge -auDN --with-bdeps=y @world
+emerge -uDN --with-bdeps=y @world
