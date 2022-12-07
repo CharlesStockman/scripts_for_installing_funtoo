@@ -1,14 +1,18 @@
 ## Base Install
 
-The purpose of this section is to describe how to setup the base install and configure including setting up the kernel, grub and the network for the new system.
+The purpose of this section is to describe how to setup the base install including 
+> * setting up the kernel 
+> * grub 
+> * network 
 
-1. Boot up a Live version from a USB Stick since Funtoo will be installed on the computers harddrive.  Currently I am using the live version of POP OS.
+** On the Machine where funtoo is installed ** 
 
-2. Bring up a command line and connect to the internet
+1. Boot up a live distirbution
+> Currently I am using the live version of POP OS.
 
-3. Switch to the root user ( either by sudo or su )
+2. Bring up a command line and connect to the internet and switch to the root user ( either by sudo or su )
 
-4. In the terminal using the date command verify and change if the date is not correct
+3. In the terminal using the date command verify and change if the date is not correct
 
 5. Run the Script that handles all comnands before the user does a chroot
    * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/preChroot.sh
