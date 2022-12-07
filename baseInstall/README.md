@@ -8,7 +8,7 @@ The purpose of this section is to describe how to setup the base install includi
 **On the Machine where funtoo is being installed** 
 
 1. Boot up a live distirbution
->> Currently I am using the live version of POP OS.
+>>Currently I am using the live version of POP OS.
 
 2. Bring up a command line and connect to the internet and switch to the root user ( either by sudo or su )
 
