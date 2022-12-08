@@ -20,7 +20,7 @@ Neworking | Use Ethernet
 
 2. Bring up a command line and connect to the internet and switch to the root user ( either by sudo or su )
 
-3. In the terminal using the date command verify and change if the date is not correct
+3. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
 
 5. Run the Script that handles all comnands before the user does a chroot
 > * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/preChroot.sh
