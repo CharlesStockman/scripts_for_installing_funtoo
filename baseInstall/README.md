@@ -5,10 +5,18 @@ The purpose of this section is to describe how to setup the base install includi
 > * grub 
 > * network 
 
+Task | Information
+-----|------------
+Retrieve Minimal Installation CD | URL: https://cdn-pull.funtoo.org/livecd/funtoo-livecd-20221008-1908.iso<br/>
+Disk Configuration | UEFI will be used <br/> Partition : Type - EFI System <br/> Partition : Type - Swap <br/> Partition : Type - Linux Filesystem <br/><br/> Use Only one disk
+Timezone | The Timezone will be Eastern
+locale | The locale will be en_US
+Neworking | Use Ethernet
+
 **On the Machine where funtoo is being installed** 
 
 1. Boot up a live distirbution
->>Currently I am using the live version of POP OS.
+>>Currently I am using the live version of the Funtoo CD
 
 2. Bring up a command line and connect to the internet and switch to the root user ( either by sudo or su )
 
