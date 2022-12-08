@@ -21,6 +21,4 @@ mount --rbind /dev dev
 cp /etc/resolv.conf /mnt/funtoo/etc
 
 # Setup a new environment
-# -i -- Start with a new environment
-# -l -- a new shell process replaces your current shell process
-( cd /mnt/funtoo ; env -i HOME=/root TERM=$TERM /sbin/chroot . bash -l )
+( cd /mnt/funtoo ; chroot . /bin/su --login )
