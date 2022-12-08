@@ -30,7 +30,7 @@ Neworking | Use Ethernet
 >> * The second partition is the swap space 
 >> * The third partition will contain the distribution
 
->> * The script will perform the following
+> * The script will perform the following
 >> * Create the filesystem for each partition
 >> * Mount the partititions where the base software will be installed to.
 >> * Copy the time to the hardware clock so it persists when the system reboots
