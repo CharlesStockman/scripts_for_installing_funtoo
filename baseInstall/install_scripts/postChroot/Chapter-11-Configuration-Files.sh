@@ -1,7 +1,8 @@
 #/bin/sh
 
 # Copy the fstab file to /etc
-cp fstab /etc/fstab
+fstab=`find . -name fstab`
+cp $fstab /etc/fstab
 
 # Set the time zone where your computer is located
 #
