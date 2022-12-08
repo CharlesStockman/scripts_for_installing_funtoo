@@ -22,9 +22,8 @@ Neworking | Use Ethernet
 
 3. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
 
-5. Run the Script that handles all comnands before the user does a chroot
-> * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/preChroot.sh
-> * sh ./preChroot.sh
+4. Run the Script that handles all comnands before the user does a chroot
+> (cd /root/scripts_for_installing_funtoo/baseInstall/ sh ./preChroot.sh )
 
 > * Assumptions The disk is partitioned into three parts
 >> * The first partition is the UEFI Boot
