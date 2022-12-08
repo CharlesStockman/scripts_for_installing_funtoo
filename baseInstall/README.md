@@ -36,16 +36,15 @@ Neworking | Use Ethernet
 >> * Copy the time to the hardware clock so it persists when the system reboots
 >> * Extract the Stage 3 Tarball to /mnt/funtoo 
    
-6. Run the script that handles the chroot
-> * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/Chapter-9-Chroot-Into-Funtoo.sh
-> * sh ./Chapter-9-Chroot-Into-Funtoo.sh
+5. Run the script that handles the chroot
+> (cd /root/scripts_for_installing_funtoo/baseInstall/ ; /Chapter-9-Chroot-Into-Funtoo.sh ) 
 
 > * The script will do the following
 >> * Mounts the /proc, /sys and /dev
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
    
-7. Run the script that handles 
+6. Run the script that handles 
 > * ( mkdir $HOME/scripts ; cd $HOME/scripts )
     
 > * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/reuseable.sh
