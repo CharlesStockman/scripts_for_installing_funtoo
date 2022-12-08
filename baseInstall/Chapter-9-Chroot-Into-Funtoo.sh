@@ -13,7 +13,7 @@ trap 'cd /mnt; pwd; umount -lR funtoo; reboot;' exit
 #      ( so that its contents are available in both places )
 
 cd /mnt/funtoo
-mount --rbind proc /proc
+mount --rbind /proc proc
 mount --rbind /sys sys
 mount --rbind /dev dev
 
