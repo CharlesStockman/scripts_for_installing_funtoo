@@ -8,6 +8,9 @@ hostname="temporaryBase"
 # Need to set a hostname -- Some ebuilds refuse to install when detecting
 # localhost as hostname.
 #
+# -i Edit the text in place
+# /c Replace selected lines in text
+#
 sed -i "/hostname/chostname=\"$hostname\"" /etc/conf.d/hostname
 
 #
