@@ -1,7 +1,7 @@
 #
 # Change the passsword for root 
 #
-echo "root:12345678" | chpasswd
+echo "root:01abc!!" | chpasswd
 
 #
 # Add an user
