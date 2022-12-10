@@ -1,5 +1,6 @@
 #
 # Change the passsword for root 
+# For Root Password : must have 2 letter, 2 numbers and 2 punctuation.
 #
 echo "root:01abc!!" | chpasswd
 
