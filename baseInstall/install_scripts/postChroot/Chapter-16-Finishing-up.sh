@@ -1,7 +1,7 @@
 #
 # Change the passsword for root 
 #
-echo "root:unixmac10" | chpasswd
+echo "root:12345678" | chpasswd
 
 #
 # Add an user
@@ -19,4 +19,4 @@ echo "root:unixmac10" | chpasswd
 #
 useradd -m cstockman
 usermod -G wheel,audio,plugdev,portage,video cstockman
-echo "cstockman:unixmac10" | chpasswd
+echo "cstockman:12345678" | chpasswd
