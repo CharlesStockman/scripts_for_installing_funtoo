@@ -61,4 +61,5 @@ Neworking | Use Ethernet
 >> * Install and configure grub
 >> * Set up the networking environment
 >> * Change the root user's passwd and create a new user
->> * configure the system for random numbers
+>> * Configure the system for random numbers
+>> * Set the initial passwords and update them on startup
