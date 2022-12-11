@@ -22,7 +22,7 @@ Neworking | Use Ethernet
 
 3. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
 
-4. Run the Script that handles all comnands before the user does a chroot
+4. Run the Script that handles all comnands before preChroot
 > (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./preChroot.sh )
 
 > * Assumptions The disk is partitioned into three parts
@@ -44,7 +44,7 @@ Neworking | Use Ethernet
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
    
-6. Run the script that handles 
+6. Run the scripts that handle post Chroot
 > * ( mkdir $HOME/scripts ; cd $HOME/scripts )
     
 > * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/reuseable.sh
@@ -63,3 +63,10 @@ Neworking | Use Ethernet
 >> * Change the root user's passwd and create a new user
 >> * Configure the system for random numbers
 >> * Set the initial passwords and update them on startup
+
+At the very end the installer should do a reboot / shutdown / turn off & on
+
+7. Run the scripts that handle the handle repot
+> * Login as root<br>
+> * Change the passwd for both cstockman and root
+> 
