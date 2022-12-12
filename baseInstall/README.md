@@ -8,7 +8,7 @@ The purpose of this section is to describe how to setup the base install includi
 Task | Information
 -----|------------
 Retrieve Minimal Installation CD | URL: https://cdn-pull.funtoo.org/livecd/funtoo-livecd-20221008-1908.iso<br/>
-Disk Configuration | UEFI will be used <br/> Partition : Type - EFI System <br/> Partition : Type - Swap <br/> Partition : Type - Linux Filesystem <br/><br/> Use Only one disk
+Disk Configuration | UEFI will be used <br/> Partition : Type - EFI System <br/> Partition : Type - Swap <br/> Partition : Type - Linux Filesystem <br/><br/> All partititions shoudl be on the same disk.
 Timezone | The Timezone will be Eastern
 locale | The locale will be en_US
 Neworking | Use Ethernet
@@ -25,10 +25,7 @@ Neworking | Use Ethernet
 4. Run the Script that handles all comnands before preChroot
 > (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./preChroot.sh )
 
-> * Assumptions The disk is partitioned into three parts
->> * The first partition is the UEFI Boot
->> * The second partition is the swap space 
->> * The third partition will contain the distribution
+> * Assumptions The disk is partitioned into three parts as mentioned about for Task : "Disk Configuration"
 
 > * The script will perform the following
 >> * Create the filesystem for each partition
@@ -40,18 +37,13 @@ Neworking | Use Ethernet
 > (cd /root/scripts_for_installing_funtoo/baseInstall/ ; /Chapter-9-Chroot-Into-Funtoo.sh ) 
 
 > * The script will do the following
->> * Mounts the /proc, /sys and /dev
+>> * Mounts the /proc, /sys and /dev that were mounted in the preChroot section
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
    
 6. Run the scripts that handle post Chroot
-> * ( mkdir $HOME/scripts ; cd $HOME/scripts )
-    
-> * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/reuseable.sh
-> * In the top level directory execute "source reusable.sh" to load the reusable functions that will be used by more than one script. 
-    
-> * wget https://raw.githubusercontent.com/CharlesStockman/scripts_for_installing_funtoo/master/baseInstall/postChroot.sh
-> * sh ./postChroot.sh
+> * From the home directory of root: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git 
+> * ( mkdir $HOME/scripts ; cd $HOME/scripts ; sh ./postChroot.sh )
    
 > * The scripts will perform the following
 >> * Download the portage tree
@@ -69,4 +61,4 @@ At the very end the installer should do a reboot / shutdown / turn off & on
 7. Run the scripts that handle the handle repot
 > * Login as root<br>
 > * Change the passwd for both cstockman and root
-> 
+> * execute afterReboot/Chapter-17-Profiles.sh to set the global configuration of the system.
