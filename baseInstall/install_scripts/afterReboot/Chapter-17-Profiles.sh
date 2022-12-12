@@ -21,6 +21,6 @@ epro no-systemd
 # -N    install any software based on the new use flgs
 emerge -auDN @world
 
-# Upate the system
+# Update the system after the upgrade
 etc-update
 boot-update
