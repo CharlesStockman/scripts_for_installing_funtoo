@@ -9,6 +9,7 @@ Task | Information
 -----|------------
 Retrieve Minimal Installation CD | URL: https://cdn-pull.funtoo.org/livecd/funtoo-livecd-20221008-1908.iso<br/>
 Disk Configuration | UEFI will be used <br/> Partition : Type - EFI System <br/> Partition : Type - Swap <br/> Partition : Type - Linux Filesystem <br/><br/> All partititions shoudl be on the same disk.
+kernel | A pre-built debian-sources kernel 
 Timezone | The Timezone will be Eastern
 locale | The locale will be en_US
 Neworking | Use Ethernet
