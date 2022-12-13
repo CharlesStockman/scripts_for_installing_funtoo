@@ -4,7 +4,7 @@
 # Enable kernel to generate namespaces for non-root users
 #
 echo 1 > /proc/sys/kernel/unprivileged_userns_clone
-# echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/unprivileged_userns_clone.conf
+echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/unprivileged_userns_clone.conf
 
 #
 # ensure the fuse module is loaded by default
