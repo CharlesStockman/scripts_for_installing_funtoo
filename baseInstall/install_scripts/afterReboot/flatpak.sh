@@ -18,6 +18,11 @@ modprobe fuse
 emerge -v sys-apps/flatpak
 
 #
+# add the Flathub repo to Flatpak
+#
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user
+
+#
 # Install Flatpak Software
 # FlatPaks do not need root, but we want to make the script easier to write
 #
