@@ -9,5 +9,7 @@
 #
 install -d /var/git -o 250 -g 250
 
-# Sync the repository 
+#
+# Sync the repository
+#
 ego sync
