@@ -7,11 +7,9 @@ epro arch x86-64bit
 epro subarch intel64-skylake
 epro flavor desktop
 
+epro profile +gfxcard-nvidia
+epro profile +gnome
 
-epro profile mix-in gfxcard-nvidia
-epro profile mix-in gnome
-epro profile
-epro no-systemd
 
 #
 # Update the new system 
