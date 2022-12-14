@@ -7,8 +7,8 @@ epro arch x86-64bit
 epro subarch intel64-skylake
 epro flavor desktop
 
-epro profile +gfxcard-nvidia
-epro profile +gnome
+epro mix-in +gfxcard-nvidia
+epro mix-in +gnome
 
 
 #
