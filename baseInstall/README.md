@@ -1,9 +1,6 @@
 ## Base Install
 
-The purpose of this section is to describe how to setup the base install including 
-> * setting up the kernel 
-> * grub 
-> * network 
+The table beliow illustrates the configuration decisions.
 
 Task | Information
 -----|------------
