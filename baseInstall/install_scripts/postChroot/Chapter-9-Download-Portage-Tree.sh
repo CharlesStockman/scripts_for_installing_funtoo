@@ -3,7 +3,7 @@
 #
 
 #
-# Does not fit in here
+# Create a prompt to identity the chroot terminal
 #
 export PS1="(chroot) $PS1"
 
