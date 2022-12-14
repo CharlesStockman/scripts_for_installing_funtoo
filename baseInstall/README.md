@@ -11,20 +11,17 @@ Timezone | America/New_York
 Time     | Set using the hardware clock
 locale | The locale will be en_US
 Neworking | Use Ethernet
+Environment | The developer is root and the git is present
 
 **On the Machine where funtoo is being installed** 
 
 1. Boot up a live distirbution
 >>Currently I am using the live version of the Funtoo CD
 
-2. Bring up a command line and connect to the internet and switch to the root user ( either by sudo or su )
+2. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
 
-3. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
-
-4. Run the Script that handles all comnands before preChroot
+3. Run the Script that handles all comnands before preChroot
 > (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./preChroot.sh )
-
-> * Assumptions The disk is partitioned into three parts as mentioned about for Task : "Disk Configuration"
 
 > * The script will perform the following
 >> * Create the filesystem for each partition
