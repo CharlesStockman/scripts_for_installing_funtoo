@@ -29,7 +29,7 @@ Environment | The developer is root and the git is present
 >> * Copy the time to the hardware clock so it persists when the system reboots
 >> * Extract the Stage 3 Tarball to /mnt/funtoo 
    
-5. Run the script that handles the chroot
+4. Run the script that handles the chroot
 > (cd /root/scripts_for_installing_funtoo/baseInstall/ ; /Chapter-9-Chroot-Into-Funtoo.sh ) 
 
 > * The script will do the following
@@ -37,7 +37,7 @@ Environment | The developer is root and the git is present
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
    
-6. Run the scripts that handle post Chroot
+5. Run the scripts that handle post Chroot
 > * From the home directory of root: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git 
 > * ( mkdir $HOME/scripts ; cd $HOME/scripts ; sh ./postChroot.sh )
    
@@ -54,7 +54,7 @@ Environment | The developer is root and the git is present
 
 At the very end the installer should do a reboot / shutdown / turn off & on
 
-7. Run the scripts that handle the handle repot
+6. Run the scripts that handle the handle repot
 > * Login as root<br>
 > * Change the passwd for both cstockman and root
 > * execute afterReboot/Chapter-17-Profiles.sh to set the global configuration of the system.
