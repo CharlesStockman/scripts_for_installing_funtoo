@@ -39,7 +39,6 @@ Environment | The developer is root and the git is present
 >> * chroot
    
 5. Run the scripts that handle post Chroot
-> * From the home directory of root: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git 
 > * ( mkdir $HOME/scripts ; cd $HOME/scripts ; sh ./postChroot.sh )
    
 > * The scripts will perform the following
