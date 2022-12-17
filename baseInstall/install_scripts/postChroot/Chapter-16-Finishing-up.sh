@@ -20,4 +20,4 @@ echo "root:01abc!!" | chpasswd
 #
 useradd -m cstockman
 usermod -G wheel,audio,plugdev,portage,video cstockman
-echo "cstockman:12345678" | chpasswd
+echo "cstockman:01abc!!" | chpasswd
