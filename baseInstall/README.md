@@ -21,7 +21,7 @@ Environment | The developer is root and the git is present
 2. Download the repository: git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
 
 3. Run the Script that handles all comnands before preChroot
-> (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./preChroot.sh )
+> (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./baseInstall/preChroot.sh )
 
 > * The script will perform the following
 >> * Create the filesystem for each partition
@@ -30,7 +30,7 @@ Environment | The developer is root and the git is present
 >> * Extract the Stage 3 Tarball to /mnt/funtoo 
    
 4. Run the script that handles the chroot
-> (cd /root/scripts_for_installing_funtoo/baseInstall/ ; /Chapter-9-Chroot-Into-Funtoo.sh ) 
+> (cd /root/scripts_for_installing_funtoo/baseInstall/ ; sh ./Chapter-9-Chroot-Into-Funtoo.sh ) 
 
 > * The script will do the following
 >> * Mounts the /proc, /sys and /dev that were mounted in the preChroot section
