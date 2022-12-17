@@ -14,8 +14,3 @@ wget https://build.funtoo.org/1.4-release-std/x86-64bit/generic_64/stage3-latest
 # -p preserve regular permissions and ownership
 tar --numeric-owner --xattrs --xattrs-include="*" -xpf /mnt/funtoo/stage3-latest.tar.xz
 rm /mnt/funtoo/stage3-latest.tar*
-
-#
-# Copy the scripts_for_installing_funtoo to the /mnt/funtoo/root so after a chroot we can still access them
-#
-cp -r /root/scripts_for_installing_gentoo /mnt/funtoo/root
