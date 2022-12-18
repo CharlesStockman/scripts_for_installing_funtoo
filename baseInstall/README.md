@@ -58,3 +58,6 @@ At the very end the installer should do a reboot / shutdown / turn off & on
 > * Login as root<br>
 > * Change the passwd for both cstockman and root
 > * execute afterReboot/Chapter-17-Profiles.sh to set the global configuration of the system.
+> * execute afterReboot/install_gnome.sh to install the gnome desktop environment
+> * execute afterReboot/nvidia_install.sh to install the nvidia drviers
+> * execute afterReboot/flatpak.sh
