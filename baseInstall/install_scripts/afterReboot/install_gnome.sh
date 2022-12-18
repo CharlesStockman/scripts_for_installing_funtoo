@@ -6,3 +6,9 @@
 #
 emerge sys-fs/fuse
 emerge @gnome
+
+#
+# configure openrc to autostart dbus and elogind:
+#
+rc-update add dbus default
+rc-update add elogind default
