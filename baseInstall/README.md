@@ -61,3 +61,4 @@ At the very end the installer should do a reboot / shutdown / turn off & on
 > * execute afterReboot/install_gnome.sh to install the gnome desktop environment
 > * execute afterReboot/nvidia_install.sh to install the nvidia drviers
 > * execute afterReboot/flatpak.sh
+> * execute create_init to create an xinitrc file for the new user ( ex. create_xinitirc.sh ctockman )
