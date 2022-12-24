@@ -26,5 +26,5 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Install Flatpak Software
 # FlatPaks do not need root, but we want to make the script easier to write
 #
-flatpak install flathub com.valvesoftware.Steam
+flatpak install -y flathub com.valvesoftware.Steam
 
