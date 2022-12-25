@@ -4,7 +4,7 @@
 # Should have execute Chapter-5a-Mounting-FileSystems.sh
 
 cd /mnt/funtoo
-wget https://build.funtoo.org/1.4-release-std/x86-64bit/generic_64/stage3-latest.tar.xz
+wget https://build.funtoo.org/next/x86-64bit/intel64-skylake/stage30-latest.tar.xz
 
 #
 # --numeric owner Preserves the numeric values of the UID and GID instead of mapping them
