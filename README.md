@@ -60,7 +60,8 @@ Environment | The developer is root and the git is present
 >> * Set up the networking environment
 >> * Change the root user's passwd and create a new user
 >> * Configure the system for random numbers
->> * Set the initial passwords and update them on startup
+>> * Set the initial passwords and update them on startup<br>
+>
 > At the very end the installer should do a reboot / shutdown / turn off & on
 
 6. Run the scripts that handle the handle repot
