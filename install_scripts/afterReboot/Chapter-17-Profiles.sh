@@ -11,6 +11,7 @@ epro mix-in +gfxcard-nvidia
 epro mix-in +gnome
 epro mix-in -print
 epro mix-in +no-systemd
+epro mix-in +next
 
 
 #
