@@ -20,7 +20,7 @@ epro mix-in +no-systemd
 # -u    update to the new version possible.  May not be the current due to masking issues
 # -D    Updates all the software in the system including dependencies
 # -N    install any software based on the new use flgs
-emerge -auDN @world
+emerge -uDN @world
 
 # Update the system after the upgrade
 etc-update
