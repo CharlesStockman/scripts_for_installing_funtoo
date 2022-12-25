@@ -6,12 +6,12 @@
 epro arch x86-64bit
 epro subarch intel64-skylake
 epro flavor desktop
+epro build next
 
 epro mix-in +gfxcard-nvidia
 epro mix-in +gnome
 epro mix-in -print
 epro mix-in +no-systemd
-epro mix-in +next
 
 
 #
