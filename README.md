@@ -16,7 +16,7 @@ The table below illustrates the configuration decisions.
 
 Task | Information
 -----|------------
-Retrieve Minimal Installation CD | URL: https://build.funtoo.org/next/x86-64bit/intel64-skylake/stage3-latest.tar.xz<br/>
+Retrieve Minimal Installation CD | URL: https://build.funtoo.org/livecd/funtoo-livecd-20221008-1908.iso<br/>
 Disk Configuration | UEFI will be used <br/> Partition : Type - EFI System <br/> Partition : Type - Swap <br/> Partition : Type - Linux Filesystem <br/><br/> All partititions shoudl be on the same disk.
 kernel | A pre-built debian-sources kernel 
 Timezone | America/New_York
