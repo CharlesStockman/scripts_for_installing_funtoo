@@ -68,8 +68,9 @@ Environment | The developer is root and the git is present
 >> * Change the passwd for both cstockman and root
 > * cd /root/scripts_for_installing_funtoo/; sh ./afterReboot.sh
 >> * The scripts will perform the following
->> * execute afterReboot/Chapter-17-Profiles.sh to set the global configuration of the system.
->> * execute afterReboot/install_gnome.sh to install the gnome desktop environment
->> * execute afterReboot/nvidia_install.sh to install the nvidia drviers
->> * execute afterReboot/flatpak.sh
+>> * Set the global configuration of the system.
+>> * Install the gnome desktop environment
+>> * Install the nvidia drviers
+>> * Install flatpak.sh
+>
 > * execute create_initrc.sh <user to create .xinitrc for> to create a .xinitrc file for a user ( ex. create_xinitrc.sh ctockman )
