@@ -9,7 +9,7 @@ if [ -z $1 ]
 then
   echo "No user has been specified.  A user is needed to know where the script should be copied to."
 else 
-  user = $1
+  user=$1
 fi
 
 #
