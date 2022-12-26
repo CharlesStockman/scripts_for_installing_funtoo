@@ -1,7 +1,6 @@
 # install_funtoo
 A set of scripts that follow the instructions from https://www.funtoo.org/Install/Introduction to install Funtoo to the
-point where the user can log into the system, use a GUI ( X windows ) and Flatpak functionally is installed and
-steam is ready to use.
+point where the user can log into the system, use a GUI ( X windows ) and Flatpak functionally is installed. 
 
 ## Use Cases
 
