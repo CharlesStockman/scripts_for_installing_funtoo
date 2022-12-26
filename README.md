@@ -63,11 +63,11 @@ Environment | The developer is root and the git is present
 >
 > At the very end the installer should do a reboot / shutdown / turn off & on
 
-6. Run the scripts that handle the handle repot
+6. Run the scripts and actions that handle after reboot
 > * Login as root<br>
 >> * Change the passwd for both cstockman and root
 > * cd /root/scripts_for_installing_funtoo/; sh ./afterReboot.sh
->> * The scripts will perform the following
+> * The scripts will perform the following
 >> * Set the global configuration of the system.
 >> * Install the gnome desktop environment
 >> * Install the nvidia drviers
