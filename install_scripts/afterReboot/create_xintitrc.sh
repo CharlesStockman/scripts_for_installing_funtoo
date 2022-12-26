@@ -23,6 +23,6 @@ export XDG_MENU_PREFIX=gnome-
 exec gnome-session
 END
 
-cp xinitrc /home/$1/.xinitrc
-chown $1:$1 /home/$1/.xinitrc
-chmod 644 /home/$1/.xinitrc
+cp xinitrc /home/$user/.xinitrc
+chown $1:$1 /home/$user/.xinitrc
+chmod 644 /home/$user/.xinitrc
