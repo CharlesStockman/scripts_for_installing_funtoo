@@ -72,5 +72,6 @@ Environment | The developer is root and the git is present
 >> * Install the gnome desktop environment
 >> * Install the nvidia drviers
 >> * Install flatpak.sh
+>> * Emerge programs needed for linuxConfiguration project ( used to configure a linux type system )
 >
 > * execute create_initrc.sh <user to create .xinitrc for> to create a .xinitrc file for a user ( ex. create_xinitrc.sh ctockman )
