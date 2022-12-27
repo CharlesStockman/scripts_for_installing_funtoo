@@ -2,4 +2,4 @@
 # Install and Configure to use linuxConfiguration configuration
 #
 
-emerge -v jq
+emerge -v app-misc/jq
