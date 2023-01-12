@@ -18,7 +18,7 @@ modprobe fuse
 emerge -v sys-apps/flatpak
 
 #
-# add the Flathub repo to Flatpak
+# allow flatpak command to know which flatpak repository to use
 #
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user
 
@@ -27,4 +27,5 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # FlatPaks do not need root, but we want to make the script easier to write
 #
 flatpak install -y flathub com.valvesoftware.Steam
+flatpak install flathub com.brave.Browser
 
