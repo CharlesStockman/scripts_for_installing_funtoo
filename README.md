@@ -48,10 +48,14 @@ Environment | The developer is root and the git is present
 3. Run the script that handles the chroot:
 > * cd /root/scripts_for_installing_funtoo/ ; sh ./Chapter-9-Chroot-Into-Funtoo.sh 
 > * The script will do the following 
->> * copy the script_for_installing_funtoo to /mnt/funtoo/root so they are available after the chroot 
 >> * Mounts the /proc, /sys and /dev that were mounted in the preChroot section
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
+>>
+> * Access the Scripts
+>> * mkdir -p /mnt/usb
+>> * mount /dev/sdb1 /mnt/usb
+>> * cd /mnt/usb
    
 4. Run the scripts that handle post Chroot:
 > * cd /root/scripts_for_installing_funtoo/; sh ./postChroot.sh
