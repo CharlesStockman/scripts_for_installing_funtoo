@@ -27,9 +27,12 @@ Environment | The developer is root and the git is present
 **On the Machine where funtoo is being installed** 
 
 1. Boot up a live distribution
->>Download and burn the iso from the Retrieve Minimal Installation Cd<br>
+>>Create an USB by burning iso from the table with the Task : Retrieve Minimal Installation CD<br>
 >>Create an USB that will contain the files from : https://github.com/CharlesStockman/scripts_for_installing_funtoo.git<br>
->>Access the scripts from the USB that will install the system<br>
+
+>> Insert the Funtoo USB and start system 
+
+>>Create a mount point to access the files to create the system
 >>>mkdir /mnt/usb<br>
 >>>mount /dev/sdb1 /mnt/usb<br>
 >>>cd /mnt/usb/scripts_for_intalling_funtoo
