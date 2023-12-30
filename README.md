@@ -27,12 +27,14 @@ Environment | The developer is root and the git is present
 **On the Machine where funtoo is being installed** 
 
 1. Boot up a live distribution
->>Download and burn the iso from the Retrieve Minimal Installation Cd
+>>Download and burn the iso from the Retrieve Minimal Installation Cd<br>
+>>Create an USB that will contain the files from : https://github.com/CharlesStockman/scripts_for_installing_funtoo.git<br>
+>>Access the scripts from the USB that will install the system<br>
+>>>mkdir /mnt/usb<br>
+>>>mount /dev/sdb1 /mnt/usb<br>
+>>>cd /mnt/usb/scripts_for_intalling_funtoo
 
-2. Download the repository
->> git clone https://github.com/CharlesStockman/scripts_for_installing_funtoo.git
-
-3. Run the Script that handles all commands before preChroot
+2. Run the Script that handles all commands before preChroot
 > * (cd /root/scripts_for_installing_funtoo ; sh ./baseInstall/preChroot.sh )
 > * The script will perform the following:
 >> * Create the filesystem for each partition
@@ -40,7 +42,7 @@ Environment | The developer is root and the git is present
 >> * Copy the time to the hardware clock so it persists when the system reboots
 >> * Extract the Stage 3 Tarball to /mnt/funtoo 
    
-4. Run the script that handles the chroot:
+3. Run the script that handles the chroot:
 > * cd /root/scripts_for_installing_funtoo/ ; sh ./Chapter-9-Chroot-Into-Funtoo.sh 
 > * The script will do the following 
 >> * copy the script_for_installing_funtoo to /mnt/funtoo/root so they are available after the chroot 
@@ -48,7 +50,7 @@ Environment | The developer is root and the git is present
 >> * From the live distro copy the resolv.conf to the /mnt/funtoo
 >> * chroot
    
-5. Run the scripts that handle post Chroot:
+4. Run the scripts that handle post Chroot:
 > * cd /root/scripts_for_installing_funtoo/; sh ./postChroot.sh
 > * The scripts will perform the following
 >> * Download the portage tree
@@ -63,7 +65,7 @@ Environment | The developer is root and the git is present
 >
 > At the very end the installer should do a reboot / shutdown / turn off & on
 
-6. Run the scripts and actions that handle after reboot
+5. Run the scripts and actions that handle after reboot
 > * Login as root<br>
 >> * Change the passwd for both cstockman and root
 > * cd /root/scripts_for_installing_funtoo/; sh ./afterReboot.sh
