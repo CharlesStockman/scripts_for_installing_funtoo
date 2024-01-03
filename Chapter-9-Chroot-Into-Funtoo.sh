@@ -1,11 +1,6 @@
 #!/bin/sh
 
 #
-# Copy the scripts_for_installing_funtoo to the /mnt/funtoo/root so after a chroot we can still access them
-#
-cp -r /root/scripts_for_installing_funtoo /mnt/funtoo/root
-
-#
 # When the exit command is executed then reboot
 #
 trap 'cd /mnt; pwd; umount -lR funtoo; reboot;' exit

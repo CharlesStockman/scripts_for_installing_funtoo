@@ -5,7 +5,6 @@
 
 [ -d /mnt ] || mkdir /mnt
 
-mkdir /mnt/funtoo
 mount /dev/nvme0n1p3 /mnt/funtoo
 
 mkdir /mnt/funtoo/boot

@@ -12,6 +12,13 @@ epro mix-in +gfxcard-nvidia
 epro mix-in +gnome
 epro mix-in -print
 epro mix-in +no-systemd
+epro mix-in +wayland
+epro mix-in +cinnamon
+epro mix-in +console
+epro mix-in +dvd
+epro mix-in +kde-plasma-5-new
+epro mix-in +xfce
+epro mix-in -X
 
 
 #
