@@ -1,3 +1,9 @@
+<b>
+   To anybody that has given me a star -- Thank you.<br><br>
+
+   I am keeping this code here for your benefit.  Use it as you well since I have no interest in the code anymore ( Funtoo has been discontinued ) 
+</b>
+
 # install_funtoo
 A set of scripts that follow the instructions from https://www.funtoo.org/Install/Introduction to install Funtoo to the
 point where the user can log into the system, use a GUI ( X windows ) and Flatpak functionally is installed. 
